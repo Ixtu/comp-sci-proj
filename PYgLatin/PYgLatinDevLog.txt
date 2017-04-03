@@ -1,0 +1,48 @@
+Team PYg - Oliver Frank, Joe Suzuki, Sheon Xu
+IntroCS2 pd03
+HW27 -- CS Science Fair
+2017-04-02
+
+<--- PYgLatin Development Plan --->
+1. isVowel(character) and qIsVowel(character), to test if a character is a vowel
+2. isCaps(character) function to check that a string is caps
+3. findCons(word) find where the consonants in a word end
+4. allCons(word) to check if a word is all consonants
+5. translateWord(word) translate word into pig latin using above functions
+6. isAlpha(character) to check if a character is in the alphabet
+7. startWord(string) finds the start of the first word in a string
+8. endWord(string) finds the end of a word in a string given its start
+9. anyAlpha(string) checks if there are any alphabetical 
+
+
+<--- Special Cases Accounted For --->
+1. Ensures proper capitalization
+2. Correct upper case and lower case formatting
+3. Correctly translates "qu"
+4. Correctly translates contractions
+5. Words may consist of alphabetic characters only (A-Z and a-z)
+6. All punctuation, numerals, symbols and whitespace are not modified
+
+<--- Outline --->
+PYgLatin is a program that will convert any sequence of
+words into pig Latin. The rules of pig Latin are laid
+out above.  Most special cases are accounted for, and the program has been
+thouroughly tested. 
+-
+<--- DEVELOPMENT LOG --->
+2017-30-03 2:35pm
+<Oliver Frank>: Wrote Outline and DevLog
+2017-30-03 8:30pm
+<Joe Suzuki>: Wrote Rules
+2017-31-03 9:40am
+<Group>: wrote isVowel, wordStart, findCons, translateWord
+2017-31-03 2:33pm
+<Oliver Frank>: finished translateWord function(deals with capitals)
+2017-31-03 8:00pm
+<Joe Suzuki>: Wrote isAlpha, anyAlpha
+2017-31-03 8:00pm
+<Sheon Xu>: Wrote startWord, endWord, started translate
+2017-2-04 10:00pm
+<Oliver Frank>: Re-Wrote translate, wrote qIsVowel, allCons, added to
+incorporate allCons and qIsVowel into translateWord and findCons,
+respectivley. Changed endWord to deal with contractions. Should be Finished.
